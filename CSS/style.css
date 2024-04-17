@@ -1,12 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Sedan", serif;
     box-sizing: border-box;
 }
 html{
     scroll-behavior: smooth;
 }
+
 body{
     height: 100vh;
     background: #ffffff;
@@ -95,7 +96,7 @@ nav .nav_links{
 }
 
 .topheading span{
-    color: #e360a1;
+    color:#cfb7b7;
     font-size: 1.2rem;
 }
 
@@ -114,7 +115,8 @@ nav .nav_links{
 }
 
 .menu_selector article{
-    padding: 1%;
+    margin-left: 10px;
+    padding-right: 10px;
 }
 .menu_selector article img{
     margin-top: 20px;
@@ -135,6 +137,68 @@ nav .nav_links{
     font-size: 1rem;
 }
 
+.search_body form{
+    height:60px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.search_body form input{
+    width: 50%;
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+.search_body form img{
+    position: relative;
+    right:50%;
+    height: 30px;
+    width: 30px;
+}
+
+.search_body form input:focus{
+    border-color: #e360a1;
+    outline: 0;
+    -webkit-box-shadow: inset 0 10x 10x rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 2px 2px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+
+.search_body form span{
+    font-family: "Jacquard 24", system-ui;
+    color: #000;
+    font-size: 50px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.search_body form button{
+    width: 15%;
+    height: 50px;
+    margin-left: 5px;
+    border: #000;
+    background-color:#cfb7b7;
+    font-size: 16px;
+}
+
+.search_body form button a{
+    color: #ffffff;
+}
+
+iframe{
+	margin-top: 10px;
+	margin-bottom: 10px;
+    margin-left: 10%;
+	width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
 footer{
     background-color: #d7d7d7;
     height: 3vh;
@@ -142,10 +206,3 @@ footer{
     text-align: justify;
 }
 
-iframe{
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-left: auto;
-	margin-right: auto;	
-	width: 70%;
-}
