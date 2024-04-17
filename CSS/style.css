@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height: 100vh;
+    background: #ffffff;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+header{
+    position: relative;
+    padding: 0 2rem;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    margin-top: 40px;
+}
+
+nav .logo a{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav .nav_links{
+    margin-top: 40px;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav_list{
+    list-style: none;
+}
+
+.nav_list a{
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.nav_list a:hover {
+    color: rgb(24, 140, 169);
+    box-shadow: 0 0.5em 0.5em -0.4em #91928a;
+    transform: translateY(-0.25em);
+}
+
+.title-flex {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: rgb(169, 161, 162);
+}
+
+.title-flex::before,
+.title-flex::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: rgb(141, 136, 137);
+}
+
+.title-flex::before {
+    margin-right: 0.25rem;
+}
+
+.title-flex::after {
+    margin-left: 0.25rem;
+}
+
+.topheading{
+    margin-top: 20px;
+    height: 80px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.topheading span{
+    color: #e360a1;
+    font-size: 1.2rem;
+}
+
+#top_menu{
+    background: #e8e6e6;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.menu_selector{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.menu_selector article{
+    padding: 1%;
+}
+.menu_selector article img{
+    margin-top: 20px;
+    width: 315px;
+    height: 450px;
+}
+
+.menu_selector article p{
+    margin: 0 auto;
+    position: relative;
+    top: -20px;
+    background-color: #f7c14e;
+    width: 8rem;
+    height: 2rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1rem;
+}
+
+footer{
+    background-color: #d7d7d7;
+    height: 3vh;
+    color: #000000;
+    text-align: justify;
+}
+
+iframe{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;	
+	width: 70%;
+}
