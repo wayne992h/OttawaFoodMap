@@ -164,7 +164,7 @@ nav .nav_links{
 
 .search_body form img{
     position: relative;
-    right:50%;
+    right:49%;
     height: 30px;
     width: 30px;
 }
@@ -372,6 +372,7 @@ iframe{
 }
 
 footer{
+    margin-top: 20px;
     background-color: #d7d7d7;
     height: 3vh;
     color: #000000;
