@@ -379,3 +379,60 @@ footer{
     text-align: justify;
 }
 
+
+#about-menu{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-top: 1px solid #cdc5c5;
+}
+
+.about-block{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    border-bottom:1px solid #cdc5c5;
+}
+
+#about-menu h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color:#e9b5b5;
+}
+
+#about-menu .about-img{
+    height: 480px;
+    width: 360px;
+    margin-bottom: 20px;
+}
+
+.about-menu-details{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.3rem;
+}
+
+.about-menu-details p{
+    margin-top: 5%;
+}
+
+.about-block button{
+    margin-top: 10%;
+    width: 40%;
+    height:50px;
+    color: #fff;
+    font-size: 1.4rem;
+    border: #000;
+    background-color:#cfb7b7;
+    position: relative;
+    top: 20px;
+}
+
+.about-block button a{
+    color: #fff;
+}
+
+.about-block button:hover{
+    background-color:#000;
+}
