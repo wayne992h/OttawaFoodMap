@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ottawa Food Map</title>
     <link rel="stylesheet" href="CSS/style.css">
-    <script src="portfolio-js.js"></script>
+
 </head>
 
 <body>
@@ -23,7 +23,7 @@
             <div class="logo"><a href="./index.html">Ottawa Eats!</a></div>
             <ul class="nav_links">
                 <li class="nav_list"><a href="./index.html">Home</a></li>
-                <li class="nav_list"><a href="#full-map">Food Map</a></li>
+                <li class="nav_list"><a href="./index.html #full-map">Food Map</a></li>
                 <li class="nav_list"><a href="./article-home.html">Restaurant</a></li>
                 <li class="nav_list"><a href="./about.html">About</a></li>
             </ul>
@@ -37,10 +37,41 @@
             <span>Wayne's food rating website of Ottawa！</span>
         </h1>
 
-        <iframe id="full-map" src="https://www.google.com/maps/d/embed?mid=1_z9iDDfxny0UFMAtqZeEe6fR35yi6f0&ehbc=2E312F"
-        width="640" height="480"></iframe>
+        <iframe src="https://www.google.com/maps/d/embed?mid=1_z9iDDfxny0UFMAtqZeEe6fR35yi6f0&ehbc=2E312F" width="640"
+            height="480"></iframe>
 
-        <h2>暂时还没弄</h2>
+        <div class="wrapper">
+            <div id="search-container">
+                <input type="search" id="search-input" placeholder="Search Restaurant name here.." />
+                <button id="search">Search</button>
+            </div>
+            <div id="buttons">
+                <button class="button-value" onclick="filterProduct('all')">All</button>
+                <button class="button-value" onclick="filterProduct('Chinese')">
+                    Chinese Food
+                </button>
+                <button class="button-value" onclick="filterProduct('Dinner')">
+                    Dinner
+                </button>
+                <button class="button-value" onclick="filterProduct('Fast')">
+                    Fast Food
+                </button>
+                <button class="button-value" onclick="filterProduct('Asian')">
+                    Asian Food
+                </button>
+                <button class="button-value" onclick="filterProduct('Bar')">
+                    Bar
+                </button>
+                <button class="button-value" onclick="filterProduct('Desert')">
+                    Desrt
+                </button>
+            </div>
+            <div id="products"></div>
+        </div>
+
+
+
+        <script src="script.js"></script>
 
 </body>
 
